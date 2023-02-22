@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* list-style: none; */
+    text-decoration: none;
+    border: none;
+
+}
+
+body{
+   background-image:url(../Image/bgImage.jpg) !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   font-size: 20px !important; 
+   
+   
+}
+.form-container{
+    width: 500px;
+    margin: auto;
+}
+.main-form{
+    background-color: rgb(44, 24, 82);
+    opacity: 0.8;
+    padding: 40px;
+}
+
+#apply-projects ul li{
+    list-style: square !important;
+}
+
+.button-box{
+    background-color: rgb(98, 211, 98);
+}
