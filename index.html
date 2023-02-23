@@ -21,41 +21,41 @@
     <!-- TITLE SECTION START  -->
     <section class="header mt-5">
       <div class="header-title text-center text-white">
-        <h4 class="fs-1">freeCodeCamp Survey Form</h4>
-        <p>Thank you for taking the time to help us improve the platform</p>
+        <h1 class="fs-1" id="title">freeCodeCamp Survey Form</h1>
+        <p id="description" >Thank you for taking the time to help us improve the platform</p>
       </div>
     </section>
 
     <section class="body">
       <div class="form-container">
-        <form action="" class="main-form">
-          <label for="name" class="text-white">Name</label>
+        <form action="" class="main-form" id="survey-form">
+          <label for="name" class="text-white" id="name-label"  required>Name</label>
           <input
-            type="text"
+            type="text" id="name"
             placeholder="Enter your name"
             class="form-control mt-2"
           />
 
-          <label for="email" class="text-white mt-3">Email</label>
+          <label for="email" id="email-label" class="text-white mt-3" required>Email</label>
           <input
-            type="email"
+            type="email" id="email"
             placeholder="Enter your Email"
             class="form-control mt-2"
           />
 
-          <label for="age" class="text-white mt-3">Age</label>
-          <input type="text" placeholder="Age" class="form-control mt-2" />
+          <label for="age" id="number-label"  class="text-white mt-3">Age</label>
+          <input type="number" placeholder="Age" class="form-control mt-2" id="number" />
 
           <label for="option" class="text-white mt-3"
             >Which option best describes your current role?</label
           >
-          <select name="" id="" class="form-control mt-2">
-            <option value="" class="form-control">Select current role</option>
-            <option value="" class="form-control">Student</option>
-            <option value="" class="form-control">Full Time job</option>
-            <option value="" class="form-control">Full Time learner</option>
-            <option value="" class="form-control">Prefer not to say</option>
-            <option value="" class="form-control">Other</option>
+          <select name=""  class="form-control mt-2">
+            <option value="current" id="drop-down" class="form-control">Select current role</option>
+            <option value="student" class="form-control">Student</option>
+            <option value="fullTime" class="form-control">Full Time job</option>
+            <option value="fullTimelearner" class="form-control">Full Time learner</option>
+            <option value="preferNotToSay" class="form-control">Prefer not to say</option>
+            <option value="Other" class="form-control">Other</option>
           </select>
 
           <label for="" class="text-white mt-3"
@@ -118,7 +118,7 @@
             <textarea name="" id="" cols="30" rows="5" class="form-control mt-3" placeholder="Enter your comment here..."></textarea>
 
             <div class="mt-3 w-100 button-box d-flex justify-content-center">
-              <a type="submit" class="text-white text-center p-3 text-decoration-none ">Submit</a>
+              <a type="submit" id="submit" class="text-white text-center p-3 text-decoration-none ">Submit</a>
             </div>
           </div>
         </form>
